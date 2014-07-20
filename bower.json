@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "ffwd-documents",
+  "version": "0.0.1",
+  "dependencies": {
+    "foundation": "*",
+    "requirejs-text": "*",
+    "requirejs-tpl": "*",
+    "requirejs-plugins": "*",
+    "backbone": "./node_modules/backbone/backbone.js",
+    "jquery": "./node_modules/jquery/dist/jquery.js",
+    "moment": "./node_modules/moment/moment.js",
+    "node-polyglot": "./node_modules/node-polyglot/lib/polyglot.js",
+    "polyglot": "./node_modules/node-polyglot/lib/polyglot.js",
+    "requirejs": "./node_modules/requirejs/require.js",
+    "underscore": "./node_modules/underscore/underscore.js",
+    "underscore.string": "./node_modules/underscore.string/lib/underscore.string.js",
+    "validator": "./node_modules/validator/validator.js"
+  },
+  "devDependencies": {
+    "expectjs": "./node_modules/expect.js/index.js",
+    "mocha": "./node_modules/mocha/mocha.js"
+  },
+  "resolutions": {
+    "jquery": ">= 2.1.0"
+  }
+}
